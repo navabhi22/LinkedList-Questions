@@ -50,7 +50,7 @@ class Solution {
         ListNode curr=head;
         if(head==null) return head;
         while(curr.next!=null && curr.next.next!=null){
-             System.out.println(curr.val);
+             //System.out.println(curr.val);
            if(curr!=head ){
                even.next=curr.next;
                even=curr.next;
